@@ -12,6 +12,7 @@
     other.official-artwork.front_default
  */
 
+//mensaje
 
 const body = document.getElementById('clase')
 const anterior = document.getElementById('anterior')
