@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p style="color: blue; font-size: 20px">Pokedex</p>
+
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" id="nombre" placeholder="Nombre o Nº pokédex">
+    <button onclick="callAPI(nombre.value)">Enviar</button>
+
+    <div  id="clase"></div>
+    <div style="display: flex;">
+        <div id="anterior"></div>
+        <div id="siguiente"></div>    
+    </div>
+    <script src="Reto10.js"></script>
+</body>
+</html>
