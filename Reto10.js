@@ -11,13 +11,6 @@
     front_default
     other.official-artwork.front_default
  */
-/*
-const api ='https://pokeapi.co/api/v2/pokemon?limit=9'
-
-fetch(api)
-    .then(res => res.json())
-    .then(data => console.log(data.results))
-*/
 
 
 const body = document.getElementById('clase')
